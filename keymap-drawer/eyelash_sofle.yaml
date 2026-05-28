@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -328,3 +328,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [34, 35]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [34, 35, 36]
+  k: PRINTSCREEN
