@@ -82,11 +82,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
-  - $$mdi:pan-up$$
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
   - $$mdi:arrow-down-bold$$
-  - KP DIVIDE
+  - '}'
   - KP 7
   - KP 8
   - KP 9
@@ -94,12 +94,12 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
-  - KP MULTIPLY
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - (
+  - $$mdi:arrow-left-bold$$
+  - )
   - KP 4
   - KP 5
   - KP 6
@@ -110,9 +110,9 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
   - $$mdi:arrow-right-bold$$
-  - KP MINUS
+  - {t: ']', s: '}'}
   - KP 1
   - KP 2
   - KP 3
