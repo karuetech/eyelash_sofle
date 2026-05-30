@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
-  - LAYER4
+  - {t: LAYER4, h: toggle}
   LAYER1:
   - {t: '`', s: '~'}
   - F1
@@ -324,7 +324,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER0, h: toggle, type: held}
+  - {t: LAYER0, h: toggle}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
