@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - LAYER2
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
   - LAYER3
   LAYER1:
@@ -87,9 +87,9 @@ layers:
   - '{'
   - $$mdi:arrow-down-bold$$
   - '}'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -100,9 +100,9 @@ layers:
   - (
   - $$mdi:arrow-left-bold$$
   - )
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,9 +113,9 @@ layers:
   - {t: '[', s: '{'}
   - $$mdi:arrow-right-bold$$
   - {t: ']', s: '}'}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - KP NUMLOCK
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP PLUS
-  - KP 0
+  - '0'
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER2:
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER3:
